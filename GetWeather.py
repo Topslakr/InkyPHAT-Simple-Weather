@@ -16,6 +16,7 @@ import time
 time.sleep(40)
 
 #Insert the website address for your data pull. I have a special WeeWx template to generate a very simple, table based, site with just the required data.
+#There is a sample HTML document in this repo
 
 content = urllib.request.urlopen('Your Simple, _TABLE BASED_ weather output')
 read_content = content.read()
